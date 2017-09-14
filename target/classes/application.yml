@@ -1,0 +1,16 @@
+###Spring Properties
+#Service Register
+spring:
+  application:
+    name: Microservice A
+
+#Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+#HTTP Server tomcat
+server:
+  port: 2222
+
